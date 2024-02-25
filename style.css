@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 255, 255, 0.678);
+    padding: 50px 0px;
+    font-family: "Open-sans", sans-serif;
+}
+.main-container {
+    max-width: 700px;
+    min-height: 600px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.836);
+    border-radius: 20px;
+    color: grey;
+    padding-bottom: 25px;
+}
+
+/* nav block */
+.navigation{
+    display: flex;
+}
+.navigation__button{
+    cursor: pointer;
+    background-color: aqua;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.navigation__button_large{
+    width: 150px;
+    padding: 10px;
+}
+.navigation__button_small{
+    width: 80px;
+    padding: 10px 5px;
+}
+.navigation__input{
+    border-radius: 5px;
+    height: 39px;
+    margin: 10px 15px;
+    text-align: center;
+}
+.navigation__input_large{
+    width: 360px;
+}
+.navigation__input_small{
+    width: 150px;
+}
+.navigation__info{
+    cursor: context-menu;
+    padding: 13px;
+}
+
+/* todo block */
+.item{
+    list-style-type: none;
+    margin: 30px auto;
+    width: 350px;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(214, 212, 212, 0.822);
+}
+.item_completed{
+    background-color: rgb(26, 238, 18);
+}
+.item__caption_completed{
+    text-decoration: line-through;
+}
+.item__checkbox{
+    cursor: pointer;
+    top: 15px;
+    left: 30px;
+    position: relative;
+    scale: 1.3;
+}
+.item__caption{
+    border-radius: 5px;
+    height: 25px;
+    margin-top: 10px;
+    text-align: center;
+    position: relative;
+    top: 15px;
+    left: 85px;
+}
+.item__button{
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: red;
+    left: 140px;
+    bottom: 8px;
+    position: relative;
+}
+.item__info{
+    cursor: context-menu;
+    color: black;
+    padding: 2px;
+    background-color: white;
+    top: 20px;
+    left: 270px;
+    position: relative;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 75px;
+}
